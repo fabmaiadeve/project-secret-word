@@ -62,8 +62,8 @@ function App() {
   }
 
   // Processando a letra que o usuario escolheu
-  const verifyLetter = () => {
-    setGameStage(stages[2].name);
+  const verifyLetter = (letter) => {
+    console.log(letter);
   }
 
   // Recomeçar o jogo
